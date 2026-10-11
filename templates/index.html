@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Chatbot</title>
+
+    <!-- This line connects our CSS --->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" >
+    
+</head>
+<body>
+
+    <div class="app">
+
+        <!--Header -->
+        <header class="app-header">
+            <h1>AI Chat</h1>
+            <p>Powered by flask</p>
+        </header>
+
+        <!--Chat Messages-->
+        <main class="chat-window" id="chat">
+            <div class = "message bot">
+                Hello! I'm your AI Assistant.
+            </div>
+        </main>
+
+        <!--Input Area-->
+        <footer class="chat-input">
+            <input type="text" placeholder="Type your message..." id="message" />
+            <button id="send-btn">Send</button>
+        </footer>
+
+
+    </div>
+
+<script src="{{ url_for('static', filename='chat.js') }}"></script>
+</body>
+
+</html>
