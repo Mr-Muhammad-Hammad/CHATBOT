@@ -44,12 +44,7 @@ CHATBOT/
 
 ### 1. Download the project
 
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-```
-
-Or download the ZIP from GitHub and extract it.
+Download the ZIP from GitHub and extract it.
 
 ### 2. Download the AI model
 
