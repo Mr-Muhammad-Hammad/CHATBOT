@@ -23,9 +23,6 @@ A simple web chatbot that runs fully on your own computer. The web page is built
 CHATBOT/
 ├── app.py              # Flask server and Ollama connection
 ├── requirements.txt    # Python packages
-├── .env                # Local settings (not uploaded to GitHub)
-├── .env.example        # Example of the settings
-├── .gitignore          # Files Git should skip
 ├── README.md
 ├── static/
 │   ├── chat.js         # Sends messages and shows replies
@@ -80,18 +77,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 5. (Optional) Change the settings
-
-Copy `.env.example` to `.env` and edit it:
-
-```
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=llama3.2:1b
-```
-
-If there is no `.env` file, the app uses these same values by default.
-
-### 6. Run the app
+### 5. Run the app
 
 ```bash
 python app.py
